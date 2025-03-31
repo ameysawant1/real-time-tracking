@@ -1,4 +1,5 @@
-const socket = io();
+const socket = io("https://real-time-tracking.onrender.com"); // ✅ Correct
+
 
 const map = L.map("map").setView([19.0760, 72.8777], 13);
 
